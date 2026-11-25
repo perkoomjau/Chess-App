@@ -25,9 +25,9 @@ namespace ChessUI
         {
             return winner switch
             {
-                Player.White => "Beli je pobedio!",
-                Player.Black => "Crni je pobedio!",
-                _ => "Remi!"
+                Player.White => "White won!",
+                Player.Black => "Black won!",
+                _ => "Stalemate!"
             };
         }
 
@@ -35,8 +35,8 @@ namespace ChessUI
         {
             return player switch
             {
-                Player.White => "Beli",
-                Player.Black => "Crni",
+                Player.White => "White",
+                Player.Black => "Black",
                 _ => ""
             };
         }
@@ -45,11 +45,11 @@ namespace ChessUI
         {
             return razlog switch
             {
-                EndReason.Stalemate => $"Pat - {PlayerString(trenutniIgrac)} ne moze da se pomeri",
-                EndReason.Checkmate => $"Sahmat - {PlayerString(trenutniIgrac)} ne moze da se pomeri",
-                EndReason.FiftyMoveRule => "Pravilo 50 poteza",
-                EndReason.InsufficientMaterial => "Nedovoljno materijala",
-                EndReason.ThreefoldRepetition => "Tri puta se ponovio potez",
+                EndReason.Stalemate => $"Stalemate - {PlayerString(trenutniIgrac)} cannot move",
+                EndReason.Checkmate => $"Checkmate - {PlayerString(trenutniIgrac)} cannot move",
+                EndReason.FiftyMoveRule => "Fifty move rule",
+                EndReason.InsufficientMaterial => "Unsufficient material",
+                EndReason.ThreefoldRepetition => "Threefold Repetition",
                 _ => ""
             };
         }

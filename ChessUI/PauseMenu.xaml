@@ -21,12 +21,12 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.ColumnSpan="2"
-                       Text="Restartuj partiju?"
+                       Text="Restart the game?"
                        Style="{StaticResource TextStyle}"
                        FontSize="28"/>
 
             <Button Grid.Row="2"
-                    Content="Nastavi"
+                    Content="Continue"
                     Style="{StaticResource ButtonStyle}"
                     Width="80"
                     Height="30"

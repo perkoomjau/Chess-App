@@ -24,7 +24,7 @@
 
             <TextBlock Grid.ColumnSpan="2"
                        x:Name="WinnerText"
-                       Text="POBEDNIK TEXT"
+                       Text="WINNER TEXT"
                        Style="{StaticResource TextStyle}"
                        FontSize="28"/>
             
@@ -32,7 +32,7 @@
             <TextBlock Grid.Row="1"
                        Grid.ColumnSpan="2"
                        x:Name="ReasonText"
-                       Text="RAZLOG TEXT"
+                       Text="REASON TEXT"
                        Style="{StaticResource TextStyle}"
                        FontSize="16"/>
             
@@ -47,7 +47,7 @@
             
             <Button Grid.Row="2"
                     Grid.Column="1"
-                    Content="IZLAZ"
+                    Content="EXIT"
                     Style="{StaticResource ButtonStyle}"
                     Width="80"
                     Height="30"
