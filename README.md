@@ -46,6 +46,4 @@ dotnet build Chess.sln
 
 Author
 
-Perkoomjau
-
-GitHub Profile
+Perko
